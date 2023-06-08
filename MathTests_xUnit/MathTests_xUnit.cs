@@ -11,7 +11,7 @@ namespace MathTests_xUnit
             double result = 5.0;
             double input = result * result;
 
-            rooter.SquareRoot(input);
+            input = rooter.SquareRoot(input);
 
             Assert.Equal(result, input, .001);
         }
